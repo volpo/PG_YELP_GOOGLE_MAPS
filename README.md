@@ -54,7 +54,7 @@ Se utilizará un Diagrama de Gantt para distribuir las tareas de forma secuencia
 
 ## Colaboradores
 
-- [Sebastian Saenz](), Data Engineer.
+- [Sebastian Saenz](https://github.com/nine-o-one), Data Engineer.
 - [Alba Castillo](https://github.com/AlbaCastillo), Data Analyst.
 - [Alejandro Volponi](https://github.com/volpo), Data Analyst.
 - [Marco Carnaghi](https://github.com/MarcoCarnaghi-fi), Data Scientist.
