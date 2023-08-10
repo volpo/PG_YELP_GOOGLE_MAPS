@@ -2,14 +2,6 @@
 
 <h1 align="center"> Restaurantes en USA </h1>
 
-## Equipo de trabajo
-
-- [Sebastian Saenz](), Data Engineer.
-- [Alba Castillo](), Data Analyst.
-- [Alejandro Volponi](), Data Analyst.
-- [Marco Carnaghi](), Data Scientist.
-- [Luis Torres](), Data Scientist.
-
 ## Descripción del proyecto
 
 <div style="text-align: justify"><p style="text-align: justify;">
@@ -59,3 +51,11 @@ El proyecto está basado en la metodología SCRUM para fomentar el trabajo en eq
 Se utilizará un Diagrama de Gantt para distribuir las tareas de forma secuencial y equitativa, el Diagrama será realizado en Google Sheets y será actualizado por cada integrante una vez terminada la tarea. 
 
 </p></div>
+
+## Colaboradores
+
+- [Sebastian Saenz](), Data Engineer.
+- [Alba Castillo](https://github.com/AlbaCastillo), Data Analyst.
+- [Alejandro Volponi](https://github.com/volpo), Data Analyst.
+- [Marco Carnaghi](https://github.com/MarcoCarnaghi-fi), Data Scientist.
+- [Luis Torres](https://github.com/luissgtorres), Data Scientist.
