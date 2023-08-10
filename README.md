@@ -1,4 +1,6 @@
-![Logo](image.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/60153579/259791208-7272d632-6fb3-429c-8c01-af83e049b64e.jpg"  height=200>
+</p>
 
 <h1 align="center"> Restaurantes en USA </h1>
 
