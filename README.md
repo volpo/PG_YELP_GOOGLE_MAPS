@@ -7,14 +7,17 @@
 ## Descripción del proyecto
 
 <div style="text-align: justify"><p style="text-align: justify;">
-Realizar el análisis de los datasets de reviews de Google Maps y Yelp suministrados por la compañía y la información adicional conseguida mediante APIs, con el fin de determinar los rubros de restaurantes más populares en los Estados Unidos, así como también las zonas que tengan menos restaurantes de esos rubros. El análisis permitirá al consorcio conocer las zonas más competitivas para abrir nuevos restaurantes y que rubro de restaurante abrir. Además, se extraerán las recomendaciones que realicen los usuarios que dejen comentarios negativos para que el consorcio pueda aplicarlas y mejorar la calidad de su servicio, lo mismo se realizará con las reviews de Uber Eats para mejorar el servicio de delivery.
+	Realizar el análisis de los datasets de reviews de Google Maps y Yelp suministrados por la compañía y la información adicional conseguida mediante APIs, con el fin de determinar los rubros de restaurantes más populares en los Estados Unidos y las zonas con menos cantidad de esos locales. La propuesta que se propone lograr es integradora, combinando los rubros que resulten más atractivos para los consumidores según su contexto regional, como podrían ser: comida sudamericana, formato sandwich, comida al paso o para llevar, etc. 
+
+  El análisis permitirá al consorcio conocer las zonas más competitivas para abrir nuevos restaurantes y que rubro abrir. Además, se extraerán las recomendaciones que realicen los usuarios que dejen comentarios negativos para que puedan ser aplicadas y mejorar la calidad de su servicio, el mismo proceso se realizará con las reviews de Uber Eats para mejorar el servicio de delivery.
+
 </p></div>
 
 ## Objetivos
 
 <div style="text-align: justify"><p style="text-align: justify;">
 
-- Identificar los rubros más populares de comida de los Estados Unidos y las zonas con menos restaurantes de dichos rubros para abrir nuevos locales.
+- Identificar los rubros más populares de comida de los Estados Unidos y las zonas con menos restaurantes de dichos rubros para abrir nuevos locales en los que se integren tomando en cuenta el contexto regional, por ejemplo: comida sudamericana, formato sandwich, comida para llevar, entre otros.
 
 - Crear un modelo que extraiga las razones de las reviews negativas y utilizarlas como recomendaciones para mejorar el servicio.
 
