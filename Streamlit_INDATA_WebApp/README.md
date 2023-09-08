@@ -101,7 +101,7 @@ Luego se determinaron los siguientes significados para cada tópico:
 10. "Atención al cliente, ambiente agradable y asequible"
 
 
-### **BERT**
+### <a href="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/ML_Model"> **BERT**
 <div id='BERT'/>
 El análisis de sentimientos es una tarea fundamental en el procesamiento del lenguaje natural, y el modelo BERT (Bidirectional Encoder Representations from Transformers) ha demostrado ser una herramienta poderosa para abordar esta tarea. BERT se basa en la arquitectura de transformers, que es conocida por su capacidad para capturar relaciones de largo alcance en el texto.
 
@@ -111,6 +111,8 @@ Una vez que BERT ha sido pre-entrenado, se realiza un ajuste fino en un conjunto
 En este case, el ajuste fino se realizó en base a las reviews disponibles y la clasificación o estrellas que el usuario daba al local como forma de obtener indirectamente los valores objetivos. Durante este proceso, el modelo ajusta sus pesos y aprende a asociar características del texto con las etiquetas de sentimiento correspondientes.
 
 Una vez BERT ha sido entrenado con un conjunto de datos de análisis de sentimientos, se puede utiliza para determinar si la connotación de las reseñas de los usuarios es positiva, negativa o neutra. 
+
+A través del [**link**](https://huggingface.co/luissgtorres/Bert_sentiment_analysis_Indata) se puede acceder al Hugginface Hub donde está almacenado el modelo de sentiment analysis
 
 # 🛠️ **Tecnologías**
 <div id='tecnologias'/>
