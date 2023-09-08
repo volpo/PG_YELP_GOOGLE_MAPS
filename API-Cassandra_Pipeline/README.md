@@ -60,6 +60,15 @@ En este sentido se definieron dos triggers. El primero se ejecuta a cada hora pa
 <p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/logs_2_gif.gif"></p><br>
 
 
+
+## Material Adicional
+
+A fin de brindar mayor claridad del funcionamiento de la plataforma desarrollada por INDATA se generaron distintos materiales audiovisuales presentando distintos elementos del mismo:
+
++[Pipeline From API to Cassandra](https://drive.google.com/file/d/1gKkr2OhIwR2iQGXp0PrRKW8tfif151HO/view?usp=sharing): En este video se presentan los bloques destinados a tomar información actualizada desde Yelp API Fusion e ingestarla en el Data Lake implementado en Cassandra. Este pipeline tiene por objetivo llevar los datos base de la aplicación a la fecha actual, tanto en locales existintes como de reviews realizadas por los usuarios.
+
+
+
 ##  🛠️ Tecnologías 
 
 - Cassandra
