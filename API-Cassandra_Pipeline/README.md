@@ -46,7 +46,7 @@ Los datos obtenidos a partir de Yelp Fusion API son provistos en formato JSON. P
 Una vez transformados los datos provenientes de Yelp Fusion API se almacenan junto a la data estática en las tablas de Cassandra, es decir el Data Lake.
 
 <br>
-<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/Api_pipeline.png"></p><br>
+<p align=center><img width="40%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/Api_pipeline.png"></p><br>
 
 
 
@@ -59,7 +59,7 @@ En este sentido se definieron dos triggers. El primero se ejecuta a cada hora pa
 <p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/triggers_2_gif.gif"></p><br>
 
 <br>
-<p align=center><img width="40%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/logs_2_gif.gif"></p><br>
+<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/logs_2_gif.gif"></p><br>
 
 
 
