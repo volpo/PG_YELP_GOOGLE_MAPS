@@ -7,9 +7,13 @@
 ## Descripción del proyecto
 
 <div style="text-align: justify"><p style="text-align: justify;">
-	Realizar el análisis de los datasets de reviews de Google Maps y Yelp suministrados por la compañía y la información adicional conseguida mediante APIs, con el fin de determinar los rubros de restaurantes más populares en los Estados Unidos y las zonas con menos cantidad de esos locales. La propuesta que se propone lograr es integradora, combinando los rubros que resulten más atractivos para los consumidores según su contexto regional, como podrían ser: comida sudamericana, formato sandwich, comida al paso o para llevar, etc. 
+	Nuestro proyecto tiene como objetivo llevar a cabo un exhaustivo análisis de los datasets de reviews de Google Maps y Yelp proporcionados por nuestra compañía, así como obtener información adicional mediante el uso de APIs. El propósito fundamental es determinar los rubros de restaurantes más populares en los Estados Unidos y identificar las zonas con menor cantidad de locales en esos rubros específicos.
 
-  El análisis permitirá al consorcio conocer las zonas más competitivas para abrir nuevos restaurantes y que rubro abrir. Además, se extraerán las recomendaciones que realicen los usuarios que dejen comentarios negativos para que puedan ser aplicadas y mejorar la calidad de su servicio, el mismo proceso se realizará con las reviews de Uber Eats para mejorar el servicio de delivery.
+Nuestra propuesta se enfoca en lograr una visión integradora al combinar los rubros más atractivos para los consumidores, teniendo en cuenta su contexto regional. Esto incluirá categorías como comida sudamericana, formato sandwich, comida al paso o para llevar, entre otros.
+
+El análisis de datos resultante permitirá a nuestro consorcio obtener información valiosa sobre las zonas más competitivas para la apertura de nuevos restaurantes, así como determinar qué rubros específicos deben ser considerados. Además, nos enfocaremos en extraer las recomendaciones proporcionadas por los usuarios en sus comentarios negativos, con el objetivo de aplicar estas sugerencias y mejorar la calidad de nuestros servicios. Este mismo proceso se replicará utilizando las reviews de Uber Eats para optimizar nuestro servicio de delivery.
+
+Mediante el uso de técnicas de análisis avanzadas y la consideración de la retroalimentación de los usuarios, nuestro proyecto busca brindar a nuestro consorcio una ventaja competitiva al tomar decisiones informadas en cuanto a la apertura de nuevos restaurantes y la mejora continua de nuestros servicios.
 
 </p></div>
 
@@ -17,9 +21,11 @@
 
 <div style="text-align: justify"><p style="text-align: justify;">
 
-- Identificar los rubros más populares de comida de los Estados Unidos y las zonas con menos restaurantes de dichos rubros para abrir nuevos locales en los que se integren tomando en cuenta el contexto regional, por ejemplo: comida sudamericana, formato sandwich, comida para llevar, entre otros.
++ Identificar los Rubros Populares: El objetivo principal de nuestro proyecto es identificar los rubros de comida más populares en los Estados Unidos. A través del análisis de los datasets de reviews de Google Maps y Yelp, así como la información obtenida mediante APIs adicionales, buscaremos determinar los rubros que gozan de mayor demanda entre los consumidores. Además, también nos enfocaremos en identificar las zonas geográficas con menor cantidad de restaurantes en dichos rubros específicos.
 
-- Crear un modelo que extraiga las razones de las reviews negativas y utilizarlas como recomendaciones para mejorar el servicio.
++ Apertura de Nuevos Locales: Utilizando los hallazgos del análisis realizado, nuestro objetivo es abrir nuevos locales de comida que integren los rubros identificados, considerando el contexto regional. Por ejemplo, si la comida sudamericana y los formatos de sándwich son rubros populares en ciertas zonas, buscaremos establecer locales que ofrezcan una combinación atractiva de estos elementos. Nuestro objetivo es aprovechar esta información para tomar decisiones estratégicas sobre dónde y qué tipo de restaurantes abrir.
+
++ Mejora del Servicio basada en Reviews Negativas: Implementaremos un modelo que extraiga las razones detrás de las reviews negativas de los usuarios. Utilizando técnicas de procesamiento de lenguaje natural, analizaremos los comentarios y opiniones negativas de los usuarios para identificar patrones y tendencias comunes. Estas razones se utilizarán como recomendaciones para mejorar la calidad y el servicio ofrecido por nuestros restaurantes. Nos enfocaremos en abordar los aspectos mencionados en las reviews negativas para impulsar una mejora continua.
 
 </p></div>
 
@@ -28,10 +34,13 @@
 <div style="text-align: justify"><p style="text-align: justify;">
 Se encuentra en el alcance del proyecto:
 
-- Categorías: el análisis se centrará en el rubro gastronómico (restaurantes, cafeterías, etc.). Por lo tanto, otras categorías no serán consideradas.
-- Geográfico: el análisis se limitará a los 5 estados con mayor cantidad de turistas de los Estados unidos, pues son los que tienen mayor probabilidad de captar consumidores y crecer. Los estados son: Nevada, California, Texas, Nueva York y Florida.
-- Datos: se utilizarán los datos de Yelp y Google Maps suministrados por la compañía, así como datos externos conseguidos mediante APIs.
-- Tiempo: los datos empleados en el proyecto están a partir del año 2004.
++ Categorías Gastronómicas: El análisis se centrará exclusivamente en el rubro gastronómico, abarcando restaurantes, cafeterías y establecimientos similares. Otras categorías fuera de este ámbito no serán consideradas en el alcance del proyecto.
+
++ Área Geográfica: El análisis se limitará a cinco estados de los Estados Unidos que son reconocidos por su alta afluencia de turistas y su potencial para captar consumidores. Estos estados son: Nevada, California, Texas, Nueva York y Florida. Nuestro enfoque se centrará en estos estados, ya que ofrecen una mayor probabilidad de crecimiento y éxito para los nuevos locales de comida.
+
++ Fuentes de Datos: Utilizaremos los datos suministrados por la compañía procedentes de Yelp y Google Maps como fuentes principales. Estos conjuntos de datos nos proporcionarán información valiosa sobre las reviews de los usuarios y la ubicación de los restaurantes. Además, recurriremos a fuentes externas y haremos uso de APIs para obtener información adicional y enriquecer nuestro análisis.
+
++ Período de Tiempo: Los datos utilizados en el proyecto abarcarán un período a partir del año 2004. Utilizaremos el histórico de datos disponible para realizar análisis retrospectivos y obtener una visión más completa de las tendencias y patrones en el rubro gastronómico en los estados seleccionados.
 
 </p></div>
 
@@ -40,31 +49,49 @@ Se encuentra en el alcance del proyecto:
 <div style="text-align: justify"><p style="text-align: justify;">
 Se utilizarán las siguientes tecnologías para el desarrollo del proyecto:
 
-- Github para alojar el repositorio donde se encontrará toda la documentación del proyecto.
-- Python como lenguaje de programación para realizar el análisis exploratorio de los datos y la creación del modelo.
-- Cassandra como base de datos NO-SQL para almacenar toda la información y realizar las consultas a los datos.
-- Power BI para realizar el dashboard que permitirán mostrar los KPIs planteados.
-- mage.ai para desarrollar el flujo de procesamiento de los datos.
-- AWS S3 como back up para el almacenamiento de los datos.
+Github: Se utilizará Github para alojar el repositorio del proyecto donde se encontrará toda la documentación y el código fuente.
 
+Python: Se utilizará Python como lenguaje de programación principal para realizar el análisis exploratorio de los datos y la creación del modelo.
+
+Cassandra (Data Lake): Se empleará Cassandra como base de datos NoSQL para almacenar toda la información y realizar consultas a los datos. Cassandra es conocida por su capacidad de escalar horizontalmente y su rendimiento en operaciones de escritura masiva.
+
+Power BI: Se utilizará Power BI para crear el dashboard que mostrará los indicadores clave de rendimiento (KPI) planteados en el proyecto. Power BI es una herramienta de visualización de datos poderosa y ampliamente utilizada.
+
+mage.ai: Se empleará mage.ai para desarrollar el flujo de procesamiento de datos. Esta herramienta permite integrar y sincronizar datos de fuentes externas, y construir pipelines en tiempo real y por lotes utilizando Python, SQL y R.
+
+AWS S3: Se utilizará Amazon S3 (Simple Storage Service) como un servicio de almacenamiento en la nube para realizar copias de seguridad y almacenar los datos del proyecto de manera segura.
+
+Streamlit: Se utilizará Streamlit para implementar una aplicación web de NLP (Procesamiento del Lenguaje Natural) que permitirá interactuar con los datos y realizar análisis específicos relacionados con el lenguaje.
+
+Looker: Se utilizará Looker para crear un dashboard de información geográfica. Looker es una herramienta de visualización de datos y generación de informes que permitirá explorar y presentar datos geográficos de manera interactiva.
+
+MySQL DataWarehouse: Se utilizará MySQL como Data Warehouse para almacenar y gestionar datos a gran escala, proporcionando capacidades de consulta y análisis avanzadas.
 </p></div>
 
 ## Metodología
 
 <div style="text-align: justify"><p style="text-align: justify;">
-El proyecto está basado en la metodología SCRUM para fomentar el trabajo en equipo y poder alcanzar los objetivos planteados en el tiempo que dura cada uno de los Sprints.
+La metodología de desarrollo del proyecto se basará en SCRUM, una metodología ágil que fomenta la colaboración en equipo, la adaptabilidad y la entrega iterativa de resultados. SCRUM se divide en sprints, que son intervalos de tiempo fijos y cortos en los que se lleva a cabo el desarrollo del proyecto.
 
-Se utilizará un Diagrama de Gantt para distribuir las tareas de forma secuencial y equitativa, el Diagrama será realizado en Google Sheets y será actualizado por cada integrante una vez terminada la tarea. 
+Se utilizará un Diagrama de Gantt para planificar y distribuir las tareas de forma secuencial a lo largo de los sprints. El Diagrama de Gantt es una herramienta visual que muestra las tareas, su duración y las dependencias entre ellas. Google Sheets se utilizará como la plataforma para crear y actualizar el Diagrama de Gantt.
+
+Cada miembro del equipo será responsable de actualizar el Diagrama de Gantt una vez que haya completado una tarea asignada. Esto permitirá mantener un seguimiento actualizado del progreso del proyecto y asegurarse de que las tareas se completen en los plazos establecidos.
+
+Al utilizar SCRUM y el Diagrama de Gantt, se busca promover la transparencia, la colaboración y la gestión efectiva del tiempo y los recursos del equipo. Esto permitirá un desarrollo más eficiente y controlado del proyecto, asegurando que se alcancen los objetivos planteados en cada sprint.
 
 </p></div>
 
 ## Material Adicional
 
-#### Soporte AudioVisual 
+Mayor detalle respecto a los distintos apartados del proyecto pueden encontrarse en el repositorio:
 
-A fin de brindar mayor claridad del funcionamiento de la plataforma desarrollada por INDATA se generaron distintos materiales audiovisuales presentando distintos elementos del mismo:
++ [Pipeline API - Cassandra](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/API-Cassandra_Pipeline)
++ [Pipeline Cassandra - MySQL](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/Cassandra_SQL_DataPipeline)
++ [EDA](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/PRELIMINARY%20EDA)
++ [Dashboard](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/PRELIMINARY%20EDA)
++ [Machine Learning Model](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/ML_Model)
++ [Streamlit NLP Web App](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/Streamlit_INDATA_WebApp)
 
-+[Pipeline From API to Cassandra](https://drive.google.com/file/d/1gKkr2OhIwR2iQGXp0PrRKW8tfif151HO/view?usp=sharing): En este video se presentan los bloques destinados a tomar información actualizada desde Yelp API Fusion e ingestarla en el Data Lake implementado en Cassandra. Este pipeline tiene por objetivo llevar los datos base de la aplicación a la fecha actual, tanto en locales existintes como de reviews realizadas por los usuarios.
 
 ## Colaboradores
 
