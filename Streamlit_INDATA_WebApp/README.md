@@ -37,7 +37,7 @@ En esta primera funalidad nos indicará si la reseña es positiva, negativa o ne
  la reseña.
 
 <br>
-<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_menu.PNG"></p><br>
+<p align=center><img width="40%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_menu.PNG"></p><br>
 
 <br>
 <p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_review_1.PNG"></p><br>
@@ -54,13 +54,13 @@ Una vez hayamos seleccionado nuestro restaurant de interés en **Choose your Res
 
 
 <br>
-<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_menu2.PNG"></p><br>
+<p align=center><img width="40%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_menu2.PNG"></p><br>
 
 <br>
-<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_sw_result.PNG"></p><br>
+<p align=center><img width="60%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_sw_result.PNG"></p><br>
 
 <br>
-<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_review_result_topic.PNG"></p><br>
+<p align=center><img width="40%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/indata_web_app_sw_result_topic.PNG"></p><br>
 
 >**Nota:** Aquellos locales que tienen menos de 10 categorias es porque no hay registro de reseñas para ese local que hayan mencionado ese aspecto.
 
