@@ -45,6 +45,7 @@ Se utilizarán las siguientes tecnologías para el desarrollo del proyecto:
 - Cassandra como base de datos NO-SQL para almacenar toda la información y realizar las consultas a los datos.
 - Power BI para realizar el dashboard que permitirán mostrar los KPIs planteados.
 - mage.ai para desarrollar el flujo de procesamiento de los datos.
+- AWS S3 como back up para el almacenamiento de los datos.
 
 </p></div>
 
