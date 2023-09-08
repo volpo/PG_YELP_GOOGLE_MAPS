@@ -59,7 +59,7 @@ En este sentido se definieron dos triggers. El primero se ejecuta a cada hora pa
 <p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/triggers_2_gif.gif"></p><br>
 
 <br>
-<p align=center><img width="80%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/logs_2_gif.gif"></p><br>
+<p align=center><img width="40%" src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/src/logs_2_gif.gif"></p><br>
 
 
 
