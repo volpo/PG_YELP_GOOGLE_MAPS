@@ -28,6 +28,8 @@ Con este servicio se puede realizar el análisis exploratorio de los datos utili
 
 En el caso de INDATA, se almacenó inicialmente los datos sucios en un bucket de Amazon S3, estos datos fueron cargados a una base de datos con Crawlers de AWS Glue, donde fueron limpiados, transformados y, posteriormente, los datos fueron cargados en la base de datos de AWS Glue y en el Bucket de Amazon S3. El flujo de datos queda de la siguiente manera:
 
-![Flujo de datos]()
+<p align="center">
+<img src="https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/a78750de862eb4408765c75d07db4f1229883e07/Cassandra_SQL_DataPipeline/Data_Pipeline.gif">
+</p>
 
-Para la limpieza y transformación de los datos, se utilizó un [**notebook the Apache Spark**]() en la plataforma de AWS Glue
+Para la limpieza y transformación de los datos, se utilizó un [**notebook the Apache Spark**](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/blob/main/Back_up/ETL_tables.ipynb) en la plataforma de AWS Glue
