@@ -91,6 +91,7 @@ Mayor detalle respecto a los distintos apartados del proyecto pueden encontrarse
 + [Dashboard](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/PRELIMINARY%20EDA)
 + [Machine Learning Model](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/ML_Model)
 + [Streamlit NLP Web App](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/Streamlit_INDATA_WebApp)
++ [Back UP en AWS](https://github.com/volpo/PG_YELP_GOOGLE_MAPS/tree/main/Back_up)
 
 
 ## Colaboradores
